@@ -8,3 +8,50 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+
+html {
+  font-size: 1.125em; /* 18px/16px */ /* 8:9 MAJOR SECOND */
+  line-height: 1.333em; /* 24px/18px */
+  padding: 1.333em 1.5em; /* 16.5px */
+  background-color: #F2EBEB;
+  color: #242424;
+  font-family: Georgia, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 1.444em; /* 26px/18px */
+  line-height: 1.846em; /* 48px/26px */
+  padding-bottom: 0.667em; /* 12px */
+}
+
+body {
+  line-height: 1.333em;
+  /* padding: 1.222em 0.916em; /* 16.5px */
+}
+
+p,
+ul {
+  padding-bottom: 1.333em; /* 24px/18px */
+}
+
+li {
+  padding-bottom: 0.667em; /* 12px */
+}
+li:last-child {
+  padding-bottom: 0;
+}
+
+/* -=-=-=-=- MODULAR STYLES -=-=-=-=- */
+
+.content ul {
+  list-style-type: disc;
+  padding-left: 1.333em;
+}
+
+/* -=-=-=-=- STATE STYLES -=-=-=-=- */
+
+@media screen and (min-width: 30.556em) {
+  .content {
+    margin: 0 11.11% 0 12.5%;
+  }
+}
